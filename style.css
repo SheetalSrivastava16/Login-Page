@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/close-up-cherry-blossom-nvq5rncaa2blzftr.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* background-size: 100vw 100vh; */
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 28%;
+    right: 40%;
+}
+
+.container h1 {
+    font-family: 'Zen Antique Soft', serif;
+
+    display: inline-block;
+    font-size: 42px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-bottom: 5px solid rgb(41, 5, 5);
+}
+
+.box {
+    width: 100%;
+    border-bottom: 3px solid rgb(40, 3, 3);
+    margin: 22px 0px;
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    outline: none;
+    color: rgb(8, 0, 116);
+    
+    padding: 5px 10px;
+    border: none;
+    font-size: 22px;
+}
+.btn{
+    font-family: 'Zen Antique Soft', serif;
+
+    margin: 12px 0px;
+    cursor: pointer;
+    width: 25%;
+    padding: 8px 7px;
+    outline: none;
+    border-radius: 12px;
+    border: 2px solid black;
+    font-size: 18px;
+    background: none;
+    color: rgb(11, 1, 1);
+font-weight: bold;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(48, 237, 244);
+}
+.box i{
+    width: 25px;
+    
+    text-align: center;
+}
